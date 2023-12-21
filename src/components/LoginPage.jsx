@@ -27,7 +27,10 @@ const LoginPage = () => {
   }
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-200">
+    <div
+      className="flex justify-center items-center h-screen bg-gray-200"
+      style={{ background: "linear-gradient(to right, #a8edea, #fed6e3)" }}
+    >
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h2 className="text-2xl font-bold mb-4">Login</h2>
         <div className="mb-4">
